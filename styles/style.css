@@ -268,7 +268,9 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
     text-align: center;
 }
 .content-section{
-    padding: 80px 0 65px;
+    padding-top: 80px;
+    padding-bottom: 65px;
+
 }
 .header-section{
     margin: 0 auto;
@@ -1230,4 +1232,7 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
 }
 .f-nav .submit-form-btn{
     margin-bottom: 20px;
+}
+.row{
+    margin-right: 0;
 }

@@ -13,6 +13,9 @@
 		align-items: center;
 		margin-bottom: 10px;
 	}
+	.container-fluid{
+		padding-right: 0;
+	}
 	.section1 .content {
 	    margin-top: 10vh;
 	}
@@ -32,7 +35,8 @@
 	    font-size: 25px;
 	}
 	.content-section {
-	    padding: 60px 0 80px;
+	    padding-top: 60px;
+		padding-bottom:  80px;
 	}
 	.news-headlines {
 	    float: none;
@@ -148,7 +152,8 @@
 	    padding: 20px;
 	}
 	.content-section .otzivi{
-		padding: 60px 0 80px;
+		padding-top: 60px;
+		padding-bottom: 80px;
 	}
 	.video-otzivi .owl-prev{
 		left: 43%;
