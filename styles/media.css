@@ -1,7 +1,4 @@
 @media (max-width: 1150px) and (min-width:  320px){
-	.f-nav{
-		display: none;
-	}
 	.didjeing{
 		justify-content: center;
 	}
@@ -243,13 +240,17 @@
 		max-width: 100px;
 	}
 	.wrapper-header-content-box img {
-		width: 30%;
+		width: 37%;
 	}
 	.video-otzivi .owl-prev{
 		left: 41%;
 	}
 	.video-otzivi .owl-next{
 		right: 41%;
+	}
+	.line-rose {
+		position: relative;
+		margin-bottom: 20px;
 	}
 }
 
@@ -343,5 +344,8 @@
 		background-repeat: no-repeat;
 		background-position: center;
 		background-size: cover;
+	}
+	.wrapper-header-form{
+		min-height: 296px;
 	}
 }

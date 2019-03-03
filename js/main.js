@@ -114,13 +114,14 @@ $(document).ready(function() {
 
     $("form .tell").mask("+7(999) 999-9999");
 
-    var nav = $('.nav-top');
-    $(window).scroll(function(){
-        if ($(this).scrollTop() > 400) {
-            nav.addClass("f-nav");
-        } else {
-            nav.removeClass("f-nav");
-        }
-    });
-
+    if ($(window).width() >= 1150) {
+        var nav = $('.nav-top');
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 400) {
+                nav.addClass("f-nav");
+            } else {
+                nav.removeClass("f-nav");
+            }
+        });
+    };
 });

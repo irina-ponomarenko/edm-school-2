@@ -1236,3 +1236,6 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
 .row{
     margin-right: 0;
 }
+.wrapper-header-form{
+    min-height: 106px;
+}
